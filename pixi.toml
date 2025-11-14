@@ -1,0 +1,17 @@
+[package]
+name = "NMFprojection"
+version = "0.1.0"
+description = "GitHub-installable Python package for NMFprojection"
+
+[package.build]
+# Use script for installing a GitHub Python package
+script = ["pip install ."]
+
+[dependencies]
+# Python runtime
+python = ">=3.10"
+pip = "*"
+
+# Optional: pin any additional runtime dependencies here
+numpy = "*"
+scipy = "*"
